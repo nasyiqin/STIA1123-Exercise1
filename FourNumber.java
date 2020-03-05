@@ -2,18 +2,7 @@ public class FourNumber {
 
     public static void main(String[] args){
 
-        String strA;  // first object
-        String strB;  // second object
-
-
-        strA   = new String( "The Dog" );
-        strB   = new String( "The Dog" );
-
-        if ( strA.equals( strB ) )
-            System.out.println( "This WILL print.");
-
-
-        /*String stringNumber = "2020";
+        String stringNumber = "2020";
         int sumNum = 0;
         String stringNum;
 
@@ -24,7 +13,7 @@ public class FourNumber {
             sumNum = sumNum + Integer.parseInt(stringNum);
         }
 
-        System.out.println("the sum of digit is: " +sumNum);*/
+        System.out.println("the sum of digit is: " +sumNum);
 
     }
 }
